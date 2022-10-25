@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>布偶的杂谈录</title>
+    <link>http://muppets.top/</link>
+    
+    <atom:link href="http://muppets.top/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>这年头什么也靠不住，只有自己靠自己，简称：我…靠!</description>
+    <pubDate>Tue, 25 Oct 2022 11:32:02 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>布偶在hexo上的第一篇文章</title>
+      <link>http://muppets.top/2022/10/25/hellowork/</link>
+      <guid>http://muppets.top/2022/10/25/hellowork/</guid>
+      <pubDate>Tue, 25 Oct 2022 11:16:03 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;Hello-hexo&quot;&gt;&lt;a href=&quot;#Hello-hexo&quot; class=&quot;headerlink&quot; title=&quot;Hello, hexo!&quot;&gt;&lt;/a&gt;Hello, hexo!&lt;/h1&gt;&lt;p&gt;花了一个下午的时间终于通过 &lt;strong&gt;hexo&lt;/strong</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="Hello-hexo"><a href="#Hello-hexo" class="headerlink" title="Hello, hexo!"></a>Hello, hexo!</h1><p>花了一个下午的时间终于通过 <strong>hexo</strong> 和 <strong>github</strong> 搭建了一个简单的个人博客网站</p><p>我是照着这篇博主的文章来做的，十分感谢！<a href="https://zhuanlan.zhihu.com/p/102592286">从零开始搭建个人博客（超详细） - 知乎 (zhihu.com)</a></p><p>照着别人说的做没有什么特别的收获，毕竟 hexo 是一个框架，github 也是提供了比较好的服务。</p><p>唯一有点收获的是：一定要做一步看一步是否成功，我就是照着做了一个多小时提交的时候发现报错了，直接回退白做</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content:encoded>
+      
+      
+      <category domain="http://muppets.top/categories/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      
+      <category domain="http://muppets.top/tags/%E6%9D%82%E8%B0%88/">杂谈</category>
+      
+      
+      <comments>http://muppets.top/2022/10/25/hellowork/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
