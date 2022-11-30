@@ -22,20 +22,25 @@
     var CONFIG = {"hostname":"muppets.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="关于第一次搭建博客网站的一些感想和有帮助的文章链接">
+  <meta name="description" content="耗时8小时，大部分时间都在查为啥报错，“吐血”">
 <meta property="og:type" content="article">
-<meta property="og:title" content="布偶在hexo上的第一篇文章">
-<meta property="og:url" content="http://muppets.top/2022/10/25/hellowork/index.html">
+<meta property="og:title" content="在VS2022上使用TinyXML来解析XML文件">
+<meta property="og:url" content="http://muppets.top/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/index.html">
 <meta property="og:site_name" content="布偶的杂谈录">
-<meta property="og:description" content="关于第一次搭建博客网站的一些感想和有帮助的文章链接">
+<meta property="og:description" content="耗时8小时，大部分时间都在查为啥报错，“吐血”">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-10-25T11:16:03.000Z">
-<meta property="article:modified_time" content="2022-10-26T03:15:23.930Z">
+<meta property="og:image" content="http://muppets.top/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/a.png">
+<meta property="og:image" content="http://muppets.top/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/b.png">
+<meta property="article:published_time" content="2022-11-30T09:58:51.000Z">
+<meta property="article:modified_time" content="2022-11-30T11:57:14.878Z">
 <meta property="article:author" content="布偶">
-<meta property="article:tag" content="随便说说">
+<meta property="article:tag" content="string转char*">
+<meta property="article:tag" content="字符编码方式">
+<meta property="article:tag" content="VS2022的使用">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://muppets.top/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/a.png">
 
-<link rel="canonical" href="http://muppets.top/2022/10/25/hellowork/">
+<link rel="canonical" href="http://muppets.top/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/">
 
 
 <script id="page-configurations">
@@ -48,7 +53,7 @@
   };
 </script>
 
-  <title>布偶在hexo上的第一篇文章 | 布偶的杂谈录</title>
+  <title>在VS2022上使用TinyXML来解析XML文件 | 布偶的杂谈录</title>
   
 
 
@@ -197,7 +202,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://muppets.top/2022/10/25/hellowork/">
+    <link itemprop="mainEntityOfPage" href="http://muppets.top/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -210,7 +215,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          布偶在hexo上的第一篇文章
+          在VS2022上使用TinyXML来解析XML文件
         </h1>
 
         <div class="post-meta">
@@ -220,23 +225,17 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2022-10-25 19:16:03" itemprop="dateCreated datePublished" datetime="2022-10-25T19:16:03+08:00">2022-10-25</time>
+              <time title="创建时间：2022-11-30 17:58:51 / 修改时间：19:57:14" itemprop="dateCreated datePublished" datetime="2022-11-30T17:58:51+08:00">2022-11-30</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-10-26 11:15:23" itemprop="dateModified" datetime="2022-10-26T11:15:23+08:00">2022-10-26</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%9D%82%E8%B0%88/" itemprop="url" rel="index"><span itemprop="name">杂谈</span></a>
+                  <a href="/categories/C-C/" itemprop="url" rel="index"><span itemprop="name">C/C++</span></a>
                 </span>
             </span>
 
@@ -248,7 +247,6 @@
               <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
             </span>
-            <div class="post-description">关于第一次搭建博客网站的一些感想和有帮助的文章链接</div>
 
         </div>
       </header>
@@ -259,21 +257,37 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="Hello-hexo"><a href="#Hello-hexo" class="headerlink" title="Hello, hexo!"></a>Hello, hexo!</h1><p>花了一个下午的时间终于通过 <strong>hexo</strong> 和 <strong>github</strong> 搭建了一个简单的个人博客网站</p>
-<p>我是照着这篇博主的文章来做的，十分感谢！（温馨提示：有些会出现错误可见其文章评论区，都有解答，比如：github现在默认的主分支是main不是master了）<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/102592286">从零开始搭建个人博客（超详细） - 知乎 (zhihu.com)</a></p>
-<p>还有就是提交了百度进行收录，并且配置了主动推送，感谢这篇文章：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/128033054">Hexo博客提交百度收录SEO - 知乎 (zhihu.com)</a></p>
-<p>照着别人说的做没有什么特别的收获，毕竟 hexo 是一个框架，github 也是提供了比较好的服务。</p>
-<p>唯一有点收获的是：一定要做一步看一步是否成功，我就是照着做了一个多小时提交的时候发现报错了，直接回退白做</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <blockquote>
+<p>接下来会介绍 <strong>TinyXML 是啥，怎么用</strong>， 以及<strong>引入头文件显示无法找到实现类</strong>， <strong>中文字符读取和写入出现乱码</strong>等问题，最后简单讲下**如何 string 转 char ***</p>
+</blockquote>
+<h2 id="1-TinyXML"><a href="#1-TinyXML" class="headerlink" title="1. TinyXML"></a>1. TinyXML</h2><h3 id="1-1-介绍"><a href="#1-1-介绍" class="headerlink" title="1.1 介绍"></a>1.1 介绍</h3><p>TinyXML 就是一个 2005 年停止更新的封装好的 C++ 解析XML文件的工具包，贼老。现在已经有 TinyXML2 了，还不跟紧潮流吗。其他的介绍我就不知道了，我知道那么多干嘛，你知道那么多干嘛。</p>
+<h3 id="1-2-使用"><a href="#1-2-使用" class="headerlink" title="1.2 使用"></a>1.2 使用</h3><p>下载代码：<a target="_blank" rel="noopener" href="http://www.grinninglizard.com/tinyxml/">TinyXml Main Page</a> ，解压缩后使用TinyXML只需要将其中的6个文件拷贝到项目中就可以直接使用了，这六个文件是：<strong>tinyxml.h、tinystr.h、tinystr.cpp、tinyxml.cpp、tinyxmlerror.cpp、tinyxmlparser.cpp，</strong> 添加头文件#include “tinyxml.h”或#include <tinyxml>。</tinyxml></p>
+<p>使用方法？喏，官方文档：<a target="_blank" rel="noopener" href="http://www.grinninglizard.com/tinyxmldocs/index.html">TinyXml: Main Page (grinninglizard.com)</a></p>
+<p>啥，你说你想我总结给你，我总结错了怎么办，就像昨天我抄别人写的，结果他写错了，我一直报错，气死，看官方文档才是正道！</p>
+<h2 id="2-遇到的问题以及解决方法"><a href="#2-遇到的问题以及解决方法" class="headerlink" title="2. 遇到的问题以及解决方法"></a>2. 遇到的问题以及解决方法</h2><p>三个东西，第一个花了我4小时，第二个花了我2小时，第三个花了我1小时，问我最后那一小时花哪了，阿勒，写代码不用时间的吗</p>
+<h3 id="2-1-引入头文件显示无法找到实现类"><a href="#2-1-引入头文件显示无法找到实现类" class="headerlink" title="2.1 引入头文件显示无法找到实现类"></a>2.1 引入头文件显示无法找到实现类</h3><ol>
+<li><p>一开始用了 vscode 出现了这样的错误，应该是编译链接的问题，搞了好久，搞不定，决定下载专业的编译C++的软件 visual studio 2022</p>
+</li>
+<li><p>然后把<strong>六个文件分别拷贝到相应区域</strong>，这里 <strong>注意</strong> <u>先将这六个文件放入工程文件夹</u> 中，在进行拷贝，否则会默认变成引用地址，然后就得弄一对配置外部引入，外部库呀，最后我还没弄成功。（见下图）</p>
+</li>
+<li><p>我直接用 vs 打开了 vscode 写过的那个文件夹，结果连 <code>#include &lt;iostream&gt;</code> 都找不到，后来我是新建一个项目文件的</p>
+</li>
+</ol>
+<p>先这样：</p>
+<img src="/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/a.png" class width="500" height="400">
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>再这样：</p>
+<img src="/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/b.png" class width="500" height="400">
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>然后就可以 <code>#include &quot;tinyxml.h&quot;</code> 并使用了。</p>
+<h3 id="2-2-中文字符读取和写入出现乱码"><a href="#2-2-中文字符读取和写入出现乱码" class="headerlink" title="2.2 中文字符读取和写入出现乱码"></a>2.2 中文字符读取和写入出现乱码</h3><p>读入的XML是 UTF-8 编码，在程序运行时的编辑是 unicode 编码，写入的时候应该要写入 UTF-8 编码，如果中文没有进行字符编码类型的转换就会出现乱码</p>
+<p>两个函数：(我是写在window命令行上运行的：引入头文件 #include &lt;windows.h&gt;)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">std::string UTF8_To_string(const std::string&amp; str)</span><br><span class="line">&#123;</span><br><span class="line">    int nwLen = MultiByteToWideChar(CP_UTF8, 0, str.c_str(), -1, NULL, 0);</span><br><span class="line"></span><br><span class="line">    wchar_t* pwBuf = new wchar_t[nwLen + 1];//一定要加1，不然会出现尾巴  </span><br><span class="line">    memset(pwBuf, 0, nwLen * 2 + 2);</span><br><span class="line"></span><br><span class="line">    MultiByteToWideChar(CP_UTF8, 0, str.c_str(), str.length(), pwBuf, nwLen);</span><br><span class="line"></span><br><span class="line">    int nLen = WideCharToMultiByte(CP_ACP, 0, pwBuf, -1, NULL, NULL, NULL, NULL);</span><br><span class="line"></span><br><span class="line">    char* pBuf = new char[nLen + 1];</span><br><span class="line">    memset(pBuf, 0, nLen + 1);</span><br><span class="line"></span><br><span class="line">    WideCharToMultiByte(CP_ACP, 0, pwBuf, nwLen, pBuf, nLen, NULL, NULL);</span><br><span class="line"></span><br><span class="line">    std::string retStr = pBuf;</span><br><span class="line"></span><br><span class="line">    delete[]pBuf;</span><br><span class="line">    delete[]pwBuf;</span><br><span class="line"></span><br><span class="line">    pBuf = NULL;</span><br><span class="line">    pwBuf = NULL;</span><br><span class="line"></span><br><span class="line">    return retStr;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">std::string string_To_UTF8(const std::string&amp; str)</span><br><span class="line">&#123;</span><br><span class="line">    int nwLen = ::MultiByteToWideChar(CP_ACP, 0, str.c_str(), -1, NULL, 0);</span><br><span class="line"></span><br><span class="line">    wchar_t* pwBuf = new wchar_t[nwLen + 1];//一定要加1，不然会出现尾巴 </span><br><span class="line">    ZeroMemory(pwBuf, nwLen * 2 + 2);</span><br><span class="line"></span><br><span class="line">    ::MultiByteToWideChar(CP_ACP, 0, str.c_str(), str.length(), pwBuf, nwLen);</span><br><span class="line"></span><br><span class="line">    int nLen = ::WideCharToMultiByte(CP_UTF8, 0, pwBuf, -1, NULL, NULL, NULL, NULL);</span><br><span class="line"></span><br><span class="line">    char* pBuf = new char[nLen + 1];</span><br><span class="line">    ZeroMemory(pBuf, nLen + 1);</span><br><span class="line"></span><br><span class="line">    ::WideCharToMultiByte(CP_UTF8, 0, pwBuf, nwLen, pBuf, nLen, NULL, NULL);</span><br><span class="line"></span><br><span class="line">    std::string retStr(pBuf);</span><br><span class="line"></span><br><span class="line">    delete[]pwBuf;</span><br><span class="line">    delete[]pBuf;</span><br><span class="line"></span><br><span class="line">    pwBuf = NULL;</span><br><span class="line">    pBuf = NULL;</span><br><span class="line"></span><br><span class="line">    return retStr;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-3-string-转-char"><a href="#2-3-string-转-char" class="headerlink" title="2.3 string 转 char*"></a>2.3 string 转 char*</h3><p>为啥有这个知识点，因为 <code>new TiXmlText(str)</code> 的 str 如果是 string 会报错，明明官方文档上有这个 string 类型参数的构造函数的，好奇怪。做太累了，不想深究了。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">char* string_to_charArr(string content) </span><br><span class="line">&#123;</span><br><span class="line">    int len = strlen(content.c_str()) + 1;</span><br><span class="line">    char* str = new char[len];</span><br><span class="line">    strcpy_s(str, len, content.c_str());</span><br><span class="line">    return str;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -290,7 +304,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://muppets.top/2022/10/25/hellowork/" title="布偶在hexo上的第一篇文章">http://muppets.top/2022/10/25/hellowork/</a>
+    <a href="http://muppets.top/2022/11/30/%E5%9C%A8VS2022%E4%B8%8A%E4%BD%BF%E7%94%A8TinyXML%E6%9D%A5%E8%A7%A3%E6%9E%90XML%E6%96%87%E4%BB%B6/" title="在VS2022上使用TinyXML来解析XML文件">http://muppets.top/2022/11/30/在VS2022上使用TinyXML来解析XML文件/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -320,7 +334,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E9%9A%8F%E4%BE%BF%E8%AF%B4%E8%AF%B4/" rel="tag"># 随便说说</a>
+              <a href="/tags/string%E8%BD%ACchar/" rel="tag"># string转char*</a>
+              <a href="/tags/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E6%96%B9%E5%BC%8F/" rel="tag"># 字符编码方式</a>
+              <a href="/tags/VS2022%E7%9A%84%E4%BD%BF%E7%94%A8/" rel="tag"># VS2022的使用</a>
           </div>
 
         
@@ -328,11 +344,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2022/10/26/%E5%85%B3%E4%BA%8E%E5%A4%A7%E4%B8%89%E7%9A%84%E9%80%89%E6%8B%A9%E9%97%AE%E9%A2%98/" rel="next" title="是去考研、考公还是找工作？">
-      是去考研、考公还是找工作？ <i class="fa fa-chevron-right"></i>
+    <a href="/2022/10/26/%E5%85%B3%E4%BA%8E%E5%A4%A7%E4%B8%89%E7%9A%84%E9%80%89%E6%8B%A9%E9%97%AE%E9%A2%98/" rel="prev" title="是去考研、考公还是找工作？">
+      <i class="fa fa-chevron-left"></i> 是去考研、考公还是找工作？
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -391,7 +407,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hello-hexo"><span class="nav-number">1.</span> <span class="nav-text">Hello, hexo!</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-TinyXML"><span class="nav-number">1.</span> <span class="nav-text">1. TinyXML</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-%E4%BD%BF%E7%94%A8"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 使用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">2. 遇到的问题以及解决方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-%E5%BC%95%E5%85%A5%E5%A4%B4%E6%96%87%E4%BB%B6%E6%98%BE%E7%A4%BA%E6%97%A0%E6%B3%95%E6%89%BE%E5%88%B0%E5%AE%9E%E7%8E%B0%E7%B1%BB"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 引入头文件显示无法找到实现类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E4%B8%AD%E6%96%87%E5%AD%97%E7%AC%A6%E8%AF%BB%E5%8F%96%E5%92%8C%E5%86%99%E5%85%A5%E5%87%BA%E7%8E%B0%E4%B9%B1%E7%A0%81"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 中文字符读取和写入出现乱码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-string-%E8%BD%AC-char"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 string 转 char*</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
